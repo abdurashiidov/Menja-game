@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100px;
-    background-position-x: 100px;
+    background-position-x: -100px;
 }
 
 #c {
