@@ -2128,7 +2128,7 @@ function handleCanvasPointerMove(x, y) {
 }
 
 
-// Use pointer events if available, otherwise fallback to touch events (for iOS).
+
 if ('PointerEvent' in window) {
 	canvas.addEventListener('pointerdown', event => {
 		event.isPrimary && handleCanvasPointerDown(event.clientX, event.clientY);
