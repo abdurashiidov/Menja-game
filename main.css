@@ -14,7 +14,7 @@ body {
     background-image: url(./img/Screenshot_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: 100px; */
+    background-position-y: 100px;
     background-position-x: 0px;
 }
 
