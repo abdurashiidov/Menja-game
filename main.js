@@ -2101,8 +2101,7 @@ function handleCanvasPointerDown(x, y) {
 		pointerIsDown = true;
 		pointerScreen.x = x;
 		pointerScreen.y = y;
-		// On when menus are open, point down/up toggles an interactive mode.
-		// We just need to rerender the menu system for it to respond.
+
 		if (isMenuVisible()) renderMenus();
 	}
 }
