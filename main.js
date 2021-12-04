@@ -2114,8 +2114,6 @@ function handleCanvasPointerUp() {
 			touchBreak: true,
 			life: touchPointLife
 		});
-		// On when menus are open, point down/up toggles an interactive mode.
-		// We just need to rerender the menu system for it to respond.
 		if (isMenuVisible()) renderMenus();
 	}
 }
