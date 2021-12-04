@@ -2142,8 +2142,7 @@ if ('PointerEvent' in window) {
 		event.isPrimary && handleCanvasPointerMove(event.clientX, event.clientY);
 	});
 
-	// We also need to know if the mouse leaves the page. For this game, it's best if that
-	// cancels a swipe, so essentially acts as a "mouseup" event.
+
 	document.body.addEventListener('mouseleave', handleCanvasPointerUp);
 } else {
 	let activeTouchId = null;
