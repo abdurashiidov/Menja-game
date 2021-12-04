@@ -247,7 +247,7 @@ a {
 	color: white;
 }
 
-/* Only enable hover state on large screens */
+
 @media (min-width: 1025px) {
 	button:hover {
 		opacity: 1;
